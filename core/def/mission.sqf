@@ -315,7 +315,8 @@ if (isServer) then {
 				"ACE_medicalSupplyCrate",
 				"B_supplyCrate_F",
 				"B_CargoNet_01_ammo_F",
-				"Box_NATO_AmmoVeh_F"
+				"Box_NATO_AmmoVeh_F",
+				"Land_WoodenBox_F"
 			],
 			[
 				//"Containers"
