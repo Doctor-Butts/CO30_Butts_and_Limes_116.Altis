@@ -185,6 +185,7 @@ _fobs_loaded = [[],[]];
 	_fob_structure = createVehicle [btc_fob_structure, _pos, [], 0, "NONE"];
 	_flag = createVehicle [btc_fob_flag, _pos, [], 0, "NONE"];
 	_flag setVariable ["btc_fob",_x select 0];
+	_flag addAction ["<t color='#ff1111'>Arsenal</t>", "['Open',true] spawn BIS_fnc_arsenal;"];
 	(_fobs_loaded select 0) pushBack (_x select 0);
 	(_fobs_loaded select 1) pushBack _fob_structure;
 } foreach (_fobs select 0);
